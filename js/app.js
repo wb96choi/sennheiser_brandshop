@@ -1,5 +1,49 @@
 // app.js----------------------
 
+$(function(){
+
+    /* #gnb toggle
+        1. 열기: #toggle-btn 클릭시 #gnb on
+        2. 닫기: #btn-close 클릭시 #gnb
+    */
+    $('#toggle-btn').click(function(){
+        $('#gnb').addClass('on');
+    });
+    $('#btn-close').click(function(){
+        $('#gnb').removeClass('on');
+    });
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 fetch('https://raw.githubusercontent.com/csslick/animal-mobile/main/animal-data.json')
     .then(function(res){
         return res.json(); // JSON 객체 변환
@@ -22,8 +66,6 @@ if(params == null) {
     params = 'dog'
 }
 
-let string = `category=cat`;    // 문자열
-let category = "cat";   // 변수형
 
 /*
     파라미터를 전달하여 요청하기
