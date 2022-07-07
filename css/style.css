@@ -19,16 +19,20 @@ body {
   color: var(--text-color);
 }
 
-.btn-small {
+.btn-small, .btn-large {
   background: var(--main-color);
   color: #fff;
   padding: 5px 20px;
   border-radius: 5px;
   display: inline-block;
+  text-align: center;
 }
 
 .btn-large {
-
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 13px;
 }
 
 .container {
@@ -37,11 +41,11 @@ body {
   /* padding-bottom: 50px; */
   padding-left: 20px;
   padding-right: 20px;
-  outline: 1px solid #ccc;
+  /* outline: 1px solid #ccc; */
 }
 
 main .container {
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     
 }
 
@@ -123,7 +127,7 @@ main h1 {
 /* 카테고리 쏘시지 메뉴(스크롤 콘텐츠) */
 .category-menu {
   display: flex;
-  outline: 1px solid #ccc;
+  /* outline: 1px solid #ccc; */
   padding-left: 20px;
   overflow: scroll;
 }
@@ -231,3 +235,7 @@ main h1 {
     margin-top: 5px;
     margin-bottom: 25px;
 }
+
+
+
+

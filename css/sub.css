@@ -1,4 +1,8 @@
 /* products------------------ */
+
+#products .product .info {
+    color: #fff;
+}
 #products .row {
     flex-wrap: wrap;
     gap: 30px 10px ;
@@ -34,3 +38,7 @@
 }
 
 
+/* detail 상세 페이지 ----------------- */
+#detail figure img {
+    width: 100%;
+}
