@@ -42,3 +42,15 @@
 #detail figure img {
     width: 100%;
 }
+#detail main header h1 {
+    margin-bottom: 20px;
+}
+#detail main header {
+    padding-bottom: 20px;
+}
+#detail main .container {
+    padding-top: 30px;
+}
+#detail main .buy-btn-group {
+    margin-top: 50px;
+}
