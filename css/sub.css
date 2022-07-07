@@ -50,7 +50,13 @@
 }
 #detail main .container {
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 #detail main .buy-btn-group {
     margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+#detail main .buy-btn-group a.btn-large {
+    width: 50%;
 }

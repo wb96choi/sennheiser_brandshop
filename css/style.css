@@ -34,6 +34,12 @@ body {
     padding-bottom: 8px;
     font-size: 13px;
 }
+/*  선 스타일 버튼  */
+.btn-large.btn-outline  {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
 
 .container {
   width: 100%;
