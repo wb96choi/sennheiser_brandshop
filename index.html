@@ -20,7 +20,7 @@
 
         <nav id="icon-menu">
             <a href="./" ><i class="bi bi-bag"></i></a>
-            <a href="./" ><i class="bi bi-search"></i></a>
+            <a><i class="bi bi-search"></i></a>
             <button id="toggle-btn"><i class="bi bi-list"></i></button>
         </nav>
         <nav id="gnb">
@@ -44,11 +44,20 @@
 
     <!-- 검색 UI----------------- -->
     <div class="search-box">
-        <div class="search-box-container">
-            <input type="search">
-            <button id="submit" type="submit"></button>
-            <button id="btn-close">X</button>
-        </div>
+        <form class="search-box-container">
+            <input 
+                type="search" 
+                id="search"
+                placeholder="검색">
+            <div class="button-group">
+                <button id="submit" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+                <button id="btn-close">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+        </form>
     </div>
 
 </body>

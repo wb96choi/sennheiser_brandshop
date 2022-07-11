@@ -13,6 +13,17 @@ $(function(){
         $('#gnb').removeClass('on');
     });
 
+
+    // 검색창 열고닫기 ----------------
+    $('#icon-menu .bi-search').click(function(){
+        $(".search-box").addClass('on');
+    });
+    $('.search-box #btn-close').click(function(){
+        $(".search-box").removeClass('on');
+    });
+
+
+
 });
 
 
@@ -77,3 +88,25 @@ obj.forEach(function(animal){
     
 });
 };
+
+$(function(){
+    const html = `
+    <!-- 검색 UI----------------- -->
+    <div class="search-box">
+        <form class="search-box-container">
+            <input 
+                type="search" 
+                id="search"
+                placeholder="검색">
+            <div class="button-group">
+                <button id="submit" type="submit">
+                    <i class="bi bi-search"></i>
+                </button>
+                <button id="btn-close">
+                    <i class="bi bi-x-lg"></i>
+                </button>
+            </div>
+        </form>
+    </div>`;
+    $('body').append(html);
+});
